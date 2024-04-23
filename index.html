@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "css/html5reset.css">
+  <link rel = "stylesheet" href = "css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- fonts -->
+  <!-- jersey 10 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- jersey 20 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <!-- Nunito Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <title>JavaScript | Quiz App</title>
+  <script>
+      function toggleNav() {
+          var navLinks = document.querySelector('nav ul');
+          navLinks.classList.toggle('show');
+      }
+  </script>
+</head>
+
+
+<body>
+
+  <header>
+    <h1> Quiz on Yujin! | Ready? 😎 </h1>
+    <button class="return-btn"><a href="about.html">Go Back</a></button>
+  </header>
+
+  <hr>
+  
+  <section class="container ">
+
+    <div class="score-time">
+
+      <div class="score-board">
+        <i class="uil uil-medal"></i>
+        <div class="score">
+          <p class="live-score">Live Score</p>
+          <h3 class="current-score">0</h3>
+        </div>
+      </div>
+      <div class="time-board">
+        <i class="uil uil-clock-nine"></i>
+        <div class="time-left">
+          <p>Time Left:</p>
+          <h3 class="time">09:59</h3>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="hr2">
+
+    <div class="quiz-container">
+
+      <div class="about-user">
+        <h2>User == </h2>
+        <p class="user-name"> Name0011</p>
+      </div>
+      <p class="display-massage"></p>
+      <div class="question-section">
+      </div>
+      <div class="swap-btns">
+        <button class="btn prev-btn">Prev</button>
+        <button class="btn submit-btn">Submit</button>
+        <button class="btn next-btn">Next</button>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="start-section ">
+    <h1 class="start-username"></h1>
+    <h3>Instructions:</h3>
+    <!-- <ol class="instructions"> -->
+    <li> How much do you know about Yujin? </li>
+    <li> Please don't select multiple answers. </li>
+    <li> Welcome instructor! I was able to create this portfolio thanks to your precious help throughout this semester, I love you!! </li>
+    <li> Welcome my family! You’d better get everything correct! haha  </li>
+    <li> Welcome my friend! let’s get closer! </li>
+    <li> Please take this quiz and shoot me an email for any questions you might have. I love connecting with people! </li>
+    <li>When all questions are completed it will autometaclly generate score + cirtificate.</li>
+    <!-- </ol> -->
+    <form class="entry-form" action="">
+      <input id="nam" class="collect-name" type="text" value="" placeholder="Enter you name here to processed.">
+      <button class="name-btn">Submit</button>
+    </form>
+    <button class="start-btn">Start Quiz &#x2192;</button>
+  </div>
+
+  <div class="complete complete-hide">
+    <div class="cirtificate">
+      <h1>CERTIFICATE</h1>
+      <h2>Of Excellence</h2>
+      <h4 class="cirtificate-id">number</h4>
+      <hr>
+      <i class="uil uil-medal"></i>
+      <p>This Certificate Is Proudly Presented To </p>
+      <h3 class="cirtificate-name">username</h3>
+      <p>For Completing this quiz on Yujin, with score <span class="cirtificate-score">90%</span>, <span
+          class="cirtificate-userchar">You are a genious according to score! Please reach out to Yujin if you wish to know the answers! </span></p>
+      <div class="flex ">
+        <h3 class="current-date">08/08/2023</h3>
+
+        <h3 class="signature">Yujin</h3>
+      </div>
+    </div>
+
+    <div class="cirtificate-btns">
+      <button class="cancel-btn"><a href="index.html"></a>Return to Quiz</button>
+      <button class="download-btn"><a href="mrbinimage.jpeg">download</a></button>
+    </div>
+  </div>
+
+  <script src="js/quiz.js"></script>
+
+</body>
+
+</html>

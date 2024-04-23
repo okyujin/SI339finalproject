@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- fonts -->
+    <!-- jersey 10 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- jersey 20 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script>
+        function toggleNav() {
+            var navLinks = document.querySelector('nav ul');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</head>
+
+<body style = "font-family: 'Nunito Sans', 'Jersey 20', sans-serif;" id = "quizBody">
+    <a href = "#main" class = "skip-to-main"> Skip to Main Content</a>
+    <header style = "font-family: 'Nunito Sans', 'Jersey 20', sans-serif;">
+        <nav class="grid">
+            <ul id = "navLinks">
+                <li><a href = "home.html" class="current" >Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "portfolio.html">Portfolio/Projects</a></li>
+                <li><a href = "#resume" class = "skip-to-resume"> Resume</a></li>
+                <li><a href = "#contact" class = "skip-to-contact">Contact</a></li>
+                <li><a href = "references.html">Testimonials/References</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()" aria-label="Toggle Navigation">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    <div class = "big-container">
+
+    
+    </header>
+<body>
+  <h1>Pop-up Quiz on Yujin!</h1>
+	 <form action="quiz.html" id ="ch3form">
+
+        <fieldset>
+            <legend>What is Yujin's last name?</legend>
+            <div>
+              <br> 
+              <label>
+                <input type="radio" name ="standing" value = "1" id="freshman"> Lee
+              </label><br>
+              <label>
+                <input type="radio" name ="standing" value = "2" id="sophomore"> Kim
+              </label><br>
+              <label>
+                <input type="radio" name ="standing" value = "3" id="junior"> Chung
+              </label><br>
+              <label>
+                <input type="radio" name ="standing" value = "4" id="senior"> Kang
+              </label><br>
+              <label>
+                <input type="radio" name ="standing" value = "5" id="graduate"> Li
+              </label><br>
+              <label>
+                <input type="radio" name ="standing" value = "6" id="standing_other"> Other
+              </label><br>
+          </div>
+      </fieldset>
+      <fieldset>
+        <legend>Current class standing:</legend>
+        <div>
+          <br> 
+          <label>
+            <input type="radio" name ="standing" value = "1" id="freshman"> Freshman
+          </label><br>
+          <label>
+            <input type="radio" name ="standing" value = "2" id="sophomore"> Sophomore
+          </label><br>
+          <label>
+            <input type="radio" name ="standing" value = "3" id="junior"> Junior
+          </label><br>
+          <label>
+            <input type="radio" name ="standing" value = "4" id="senior"> Senior
+          </label><br>
+          <label>
+            <input type="radio" name ="standing" value = "5" id="graduate"> Graduate
+          </label><br>
+          <label>
+            <input type="radio" name ="standing" value = "6" id="standing_other"> Other
+          </label><br>
+      </div>
+  </fieldset>
+  <fieldset>
+  <legend>What is not a field Yujin is interestd in? </legend>
+        <div>
+          <br> 
+          <label>
+            <input type="radio" name ="gradDate" value = "22" id="2020"> Data Analytics
+          </label><br>
+          <label>
+             <input type="radio"  name ="gradDate" value = "23" id="2021"> Programming
+          </label><br>
+          <label>
+             <input type="radio" name ="gradDate" value = "24" id="2022"> Consulting
+          </label><br>
+          <label>
+            <input type="radio" name ="gradDate" value = "25" id="2023"> Visual Arts
+          </label><br>
+          <label>
+             <input type="radio" name ="gradDate" value = "other" id="year_other"> Finance/Venture Capital
+          </label><br>
+      </div>
+  </fieldset>
+
+  <fieldset>
+    <legend> Which is the country that Yujin has lived in? </legend>
+    <div>
+      <br> 
+      <label>
+        <input type="radio" name ="standing" value = "1" id="freshman"> Netherlands
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "2" id="sophomore"> New Zealand
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "3" id="junior"> Australia
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "4" id="senior"> Austria
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "5" id="graduate"> Norway
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "6" id="standing_other"> New Guinea
+      </label><br>
+  </div>
+</fieldset>
+
+<fieldset>
+    <legend> Which country did Yujin not consider for university? </legend>
+    <div>
+      <br> 
+      <label>
+        <input type="radio" name ="standing" value = "1" id="freshman"> Korea
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "2" id="sophomore"> England
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "3" id="junior"> United States
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "4" id="senior"> New Zealand
+      </label><br>
+      <label>
+        <input type="radio" name ="standing" value = "5" id="graduate"> Australia
+      </label><br>
+  </div>
+
+</fieldset>
+
+<button id="formButton" type="submit">Send to Yujin</button>
+</form>
+   
+    <script src="js/script.js"></script>  </body>
+</html>

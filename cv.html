@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script>
+        function toggleNav() {
+            var navLinks = document.querySelector('nav ul');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</head>
+<body>
+    <a href = "#main" class = "skip-to-main"> Skip to Main Content</a>
+    <header>
+
+        <nav class="grid">
+            <ul>
+                <li><a href = "home.html" class="current">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "portfolio.html">Portfolio/Projects</a></li>
+                <li><a href = "cv.html">CV</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+                <li><a href = "references.html">Testimonials/References</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()" aria-label="Toggle Navigation">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <h1>Yujin Kim's Portfolio</h1>
+    </header>
+    
+<main id = "main" class = "grid-container">
+    <h2>Resume/CV</h2>
+     <div class = "welcome-message">
+        I am Yujin Kim, a sophomore at the University of Michigan, Ann Arbor, specializing in Business and Computer Science, with a forthcoming transition to Information Analytics. Passionate about the convergence of business strategies and technological solutions, I aim to leverage data-driven insights to address real-world business challenges.
+    </div> 
+
+    <h3> Featured Projects</h3>
+
+    <div class = "project1"> 
+        <!-- 1st section -->
+        <h4> 1. Data Analytics through Machine Learning using R</h4>
+        <ul>
+            <li> Description: Developed an interactive dashboard to visualize sales data for a mid-size retail company. The project involved data cleaning, analysis, and building a user-friendly interface using JavaScript and D3.js.</li>
+            <li> Outcomes: Enabled the company to see real-time performance metrics, leading to a 20% increase in timely decision-making efficiency. </li>
+            <li> Tools Used: R </li>
+            <li> Models Used: Logistic Regression, ANN, KNN, SVM, Decision Tree Model </li>
+            <li> <a href="images/Headshot_zoomin.png"> View Project</a></li>
+        </ul>
+    </div>
+
+    <div class = "project2">
+        <h4> 2. Gen-AI Based Storytelling Product Development</h4>
+        <ul>
+            <li> Description: Developed an interactive dashboard to visualize sales data for a mid-size retail company. The project involved data cleaning, analysis, and building a user-friendly interface using JavaScript and D3.js.</li>
+            <li> Outcomes: Enabled the company to see real-time performance metrics, leading to a 20% increase in timely decision-making efficiency. </li>
+            <li> Tools Used: R </li>
+            <li> Models Used: Logistic Regression, ANN, KNN, SVM, Decision Tree Model </li>
+            <li> <a href="images/Headshot_zoomin.png"> View Project</a></li>
+        </ul>
+    </div>
+
+
+
+
+</main>
+
+<footer>
+    <div class = "footer-container">
+        <p>&copy; 2024 Yujin Kim. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href = "home.html" class="current">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "portfolio.html">Portfolio/Projects</a></li>
+                <li><a href = "cv.html">CV</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+                <li><a href = "references.html">Testimonials/References</a></li>
+        </ul>
+    <div class = "social-links-container">
+        <p> Contact me through: </p>
+        <a href = "https://www.linkedin.com/in/yujinkim111"> LinkedIn</a>
+        <a href = "https://www.instagram.com/yujin__26/"> Instagram</a>
+        <a href = "mailto:ustina@umich.edu"> Email Me: ustina@umich.edu</a>
+    </div>
+
+    <button class="icon" onclick="toggleNav()" aria-label="Toggle Navigation" aria-expanded="false">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    </div>
+    Content Creator: Yujin Kim
+</footer>
+
+</body>
+</html>

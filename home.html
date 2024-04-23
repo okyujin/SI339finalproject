@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- fonts -->
+    <!-- jersey 10 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- jersey 20 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <!-- Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+20&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script>
+        function toggleNav() {
+            var navLinks = document.querySelector('nav ul');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+</head>
+<body style = "font-family: 'Nunito Sans', 'Jersey 20', sans-serif;">
+    <a href = "#main" class = "skip-to-main"> Skip to Main Content</a>
+    <header style = "font-family: 'Nunito Sans', 'Jersey 20', sans-serif;">
+        <nav class="grid">
+            <ul id = "navLinks">
+                <li><a href = "home.html" class="current" >Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "#resume" class = "skip-to-resume"> Resume</a></li>
+                <li><a href = "#contact" class = "skip-to-contact">Contact</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()" aria-label="Toggle Navigation">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        
+    <div class = "big-container">
+
+        <div id = "title">
+            <h1>Yujin Kim</h1>
+            <h2>Business. Data Analytics. Technology Consulting.</h2>
+        </div>
+    
+    </header>
+    
+<main id = "main" class = "grid-container" >
+    <h3>Home</h3>
+     <div class = "welcome-message">
+        <h4> Hello! Welcome to my world!</h4>
+        <h5> First, Who AM I?</h5>
+        <a href = "about.html">
+            <img src="images/Headshot_zoomin.png" id = "headshot" width = "400" alt="A professional headshot of Yujin Kim, the author of this personal portfolio">
+        </a> 
+        <p> Hi Everyone! I'm Yujin Kim, a current sophomore pursuing dual degrees in Business and Computer Science at the University of Michigan, Ann Arbor. Starting next semester, I'm excited to transition into the School of Information as an Information Analytics major while continuing my studies in Business.</p> 
+    </div>
+        <br> 
+        
+        <p> Click button below to see my on-campus affiliations </p>
+        <br>
+        <p> ⬇ </p>
+        <button id="campusAffiliationButton">Campus Affiliations</button>
+
+        <div class = "campus-container" id="campusAffiliationLogos" style="display:none;">
+                <!-- Your logos wrapped in <a> tags here -->
+            
+                <!-- University of Michigan Link Image -->
+                <a href="http://umich.edu" title="University of Michigan Homepage">
+                    <img src="images/UmichLogo.png" width="400" alt="University of Michigan Logo">
+                </a>
+
+                <!-- Ross Business School Link Image -->
+                <a href="https://michiganross.umich.edu/undergraduate/bba" title="Ross Business School BBA Program" >
+                    <img src="images/MichiganRossLogo.png" width="500" alt="Ross Business School Logo">
+                </a>
+
+                <!-- School of Engineering Link Image -->
+                <a href="https://majors.engin.umich.edu/program/computer-science/" title="UMich Engineering Computer Science Department" id = "engineer">
+                    <img src="images/umichengineering.png" width="450" alt="Engineering Department Logo" >
+                </a>
+
+                <!-- School of Information Link Image -->
+                <a href="https://www.si.umich.edu/programs/bachelor-science-information" title="UMich School of Information BSI Program">
+                    <img src="images/umsiTransparent.png" width="400"  alt="School of Information Logo" id = "umsi">
+                </a>
+
+                <!-- UMich LSA Link Image -->
+                <a href="https://lsa.umich.edu/" title="UMich School of Information BSI Program">
+                    <img src="images/UmichLSA.png" width="400" alt="School of Information Logo">
+                </a>
+           
+    </div>
+
+
+    <div class = "career-interest-container"> 
+        <!-- 1st section -->
+        <h2> About Me </h2>
+        <!-- <img src="images/Business+tech.png" width = "600" alt="A professional headshot of Yujin Kim, the author of this personal portfolio">  -->
+            <p> My academic journey is driven by a strong passion for blending business acumen with technological innovation. This blend not only fuels my academic pursuits but also my personal projects and ambitions. My fascination with the synergy between business and technology began early in my high school years and has only grown stronger. At the University of Michigan, I have immersed myself in understanding complex business models, developing robust technical solutions, and exploring the vast field of data analytics. 
+            </p> 
+            <div class="image-container">
+                <img src="images/data_analysis.png" width="600" alt="Data Analysis" id="img1">
+                <div class="image-text" style="display: none;">Data Analysis</div>
+            </div>
+            <div class="image-container">
+                <img src="images/venture_capital.png" width="600" alt="Venture Capital" id="img2">
+                <div class="image-text" style="display: none;">Venture Capital</div>
+            </div>
+            <div class="image-container">
+                <img src="images/accounting.jpeg" width="600" alt="Accounting" id="img3">
+                <div class="image-text" style="display: none;">Accounting</div>
+            </div>
+            
+        
+
+            <p> With great interests in areas ranging from Data Analysis, Tech Consulting, Venture Capital Analyst, to Accounting, I thrive at the intersection where business strategies meet technological solutions, aiming to streamline processes and enhance decision-making.</p>
+
+            <a href = "portfolio.html"> click here to explore projects that reflect my career and academic interests</a>
+
+        <button id="resumeDownloadButton"> <a href="https://drive.google.com/file/d/1ffHybZvmDEDvrdYcxYYWVC3ucCHrN5qe/view?usp=sharing" id = "resumeButton" title="Yujin Kim Resume">Download Resume</a></button>
+
+<!-- RESUME -->
+        <div id = "resume">
+                <img src="images/resume.png" width="400" alt="A professional resume of Yujin Kim, the author of this personal portfolio">
+            </a>
+        </div> 
+       
+        <p> Click button below to learn more about Yujin! </p>
+        <br>
+        <p> ⬇ </p>
+        <button id="learnMoreButton"> <a href = "about.html" id = 'moreAboutYujin'> More About Yujin </a></button>
+
+
+</main>
+
+
+
+</div>
+
+<footer>
+    <div class = "footer-container" id = "contact">
+        <p id = "rights"> &copy; 2024 Yujin Kim. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href = "home.html" class="current">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "portfolio.html">Portfolio/Projects</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+                <li><a href = "references.html">Testimonials/References</a></li>
+        </ul>
+
+    <div class = "social-links-container">
+        <p> Contact me through: </p>
+
+        <a href="https://www.linkedin.com/in/yujinkim111"title="LinkedIn">
+            <img src="images/linkedInLogo.png" width="70"  alt="LinkedIn Link" id = "linkedin">
+        </a>
+        <a href="https://www.instagram.com/yujin__26/" title="instagram">
+            <img src="images/instagram.jpeg" width="60"  alt="Instagram Link" id = "instagram">
+        </a>
+        <a href="mailto:ustina@umich.edu" title="email">
+            <img src="images/emailLogo.jpg" width="60" alt="Send Email" id = "email">
+        </a>
+
+    </div>
+
+    <button class="icon" onclick="toggleNav()" aria-label="Toggle Navigation" aria-expanded="false">
+        <i class="fa fa-bars"></i>
+    </button>
+
+    </div>
+    Content Creator: Yujin Kim
+
+    <div class = "references"> 
+        <p> 
+            <a href = https://www.simplilearn.com/data-analysis-methods-process-types-article> </a>
+            <a href = https://www.forbes.com/advisor/business/what-is-cost-accounting> </a>
+            <a href = https://metricson.com/en/what-is-venture-capital> </a>
+            <a href = https://businesstech.bus.umich.edu/?_gl> </a>
+        </p>
+    </div>
+</div>
+</footer>
+<script src = "js/script.js"></script>
+</body>
+</html>

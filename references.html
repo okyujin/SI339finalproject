@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel = "stylesheet" href = "css/html5reset.css">
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script>
+        function toggleNav() {
+            var navLinks = document.querySelector('nav ul');
+            navLinks.classList.toggle('show');
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <a href = "#main" class = "skip-to-main"> Skip to Main Content</a>
+    <header>
+
+        <nav class="grid">
+            <ul>
+                <li><a href = "home.html" class="current">Home</a></li>
+                <li><a href = "about.html">About</a></li>
+                <li><a href = "portfolio.html">Portfolio/Projects</a></li>
+                <li><a href = "cv.html">CV</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+                <li><a href = "references.html">Testimonials/References</a></li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()" aria-label="Toggle Navigation">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <h1>Week Two discussion</h1>
+    </header>
+
+    <main id = "main" class = "grid-container"> 
+        <h2>Travel</h2>
+        <div class = "travel-container">
+            <h2> Yellowstone National Park </h2>
+                <h3> Geographical Location: Wyoming, Montana, and Idaho, United States </h3>
+                    <p>
+                        Yellowstone National Park is in the northwest region of the United States
+                    </p>
+                    <p>
+                        The park covers 3,472 square miles. Even though the official address is to the state of Wyoming, Yellowstone is actually in three states.
+                    </p>
+
+                <h3> Photo Gallery</h3>
+                <div class = "photo-container1">
+
+                <figure class = "photo photo1">
+                    <img src="images/yellowstone_travertine.JPG" width = "400" alt="A large mound of multi-colored travertine">
+                    <figcaption class = "photo caption"> Mammoth Hot Springs has a number of actively forming Travertine terraces. </figcaption>
+                </figure>
+
+                <figure class = "photo photo2">
+                    <img src="images/yellowstone_sunset.jpg" width = "400" alt="Sunset over mountains with some charred trees in the foreground">
+                    <figcaption class = "photo caption"> The drive to Lamar Valley requires some dangerous roads.  But the result is amazing sunset views.</figcaption>
+                </figure>
+
+                <figure class = "photo photo3">
+                    <video width="200"  controls>
+                        <source src="images/yellowstone_prism.MOV">
+                        Your browser does not support the video tag.  This was a video of the multicolored layers getting their hues from different species of bacteria living in the cooler water around the spring.
+                    </video>
+                </figure>
+
+                <figure class = "photo photo4">
+                    <video width="200" controls>
+                        <source src="images/yellowstone_buffalo.MOV">
+                        Your browser does not support the video tag. This was a video of the buffalo so common along the roads in Yellowstone that our mantra became "If it ain't lickin the car, we aren't stopping"
+                    </video>
+                </figure>
+
+                <figure class = "photo photo5">
+                    <img src="images/yellowstone_sulphur_springs.JPG" width = "400" alt="A large spring with clouds of sulfur smoke rising from it.">
+                    <figcaption class = "photo caption"> If you can handle the odor, the Yellowstone Sulphur Springs is a great place to hike. </figcaption>
+                </figure>
+            </div>
+                <h4> By: Colleen van Lent</h4>
+        </div>
+
+
+
+        <div class = "travel-container">
+            <h2> Monteverde, Costa Rica </h2>
+            <div class = "travel-image-container">
+            <img src="images/Monteverde.gif" width = "400" alt="Zipline, Kayak, Woods">
+            <img src="images/Monteverde_skyline.jpeg" width = "400" alt="Skyline at Monteverde">
+        </div>
+                <h3> Geographical Location: South America </h3>
+                    <p>
+                        Monteverde, Costa Rica is situated 4,662 feet above sea level. Monteverde’s famed cloud forests are the byproduct of fog (a thick, low-hanging cloud) tangling amongst the leaves and branches of the forest canopy. Trails and hanging bridges offer a close-up view of the diverse variety of animals and plants living in the forest.
+                    </p>
+                    <p>
+                        One of the main tourist locations in Monteverde is the town of Santa Elena, which is not only home to a variety of restaurants with delicious food, but a serpentarium as well. You can enjoy hiking, ziplining, and observing the native wildlife while staying in Monteverde. It’s a truly beautiful place. 
+                    </p>
+
+                <h3> Photo Gallery</h3>
+                <div class = "photo-container">
+                <figure class = "photo">
+                    <img src="images/Monteverde_cloud_forest.jpeg" width = "400" alt="Clouds rolling through a line of trees">
+                    <figcaption> You can hike trails and zipline through the Monteverde cloud forests. </figcaption>
+                </figure>
+
+                <figure class = "photo">
+                    <img src="images/Monteverde_hanging_bridges.jpeg" width = "400" alt="An image of a bridge hanging above the cloud forest canopy in Monteverde.">
+                    <figcaption> Hanging bridges over the cloud forests allow for a birds-eye view.</figcaption>
+                </figure>
+
+                <figure class = "photo">
+                    <img src="images/Monteverde_hummingbirds.jpeg" width = "400" alt="A hummingbird with green feathers drinking from a pink and orange flower.">
+                    <figcaption> You can visit hummingbirds at Monteverde’s Selvatura Park’s hummingbird garden, which exhibits over 14 different species of hummingbird.</figcaption>
+                </figure>
+
+                <figure class = "photo">
+                    <img src="images/Monteverde_el_tigre_waterfalls.jpeg" width = "400" alt="A person in red standing in front of one of El Tigre’s four waterfalls.">
+                    <figcaption> El Tigre Waterfalls is made up of four falls, which are connected by trails and hanging bridges. </figcaption>
+                </figure>
+            </div>
+
+                <h4> By: Kay Malan </h4>
+        </div>
+
+        <div class = "travel-container">
+            <h2> Colosseum, Rome </h2>
+                <h3> Geographical Location: Italy, Europe </h3>
+                    <p>
+                        Rome is one of the oldest metropolitan areas in the world. With a history dating back to 700 BC with the birth of the Roman Empire, the city has maintained its status as a cultural and historical hub of Europe. The city is peppered with ancient monuments, statues, and piazzas from different eras of history. The most famous location, the Colosseum, is touted as one of the seven modern wonders of the world. Rome houses several world famous museums, such as the Borghese and the Vatican Museum. It is also the only city in the world to encompass a recognized country, Vatican City.
+                    </p>
+                    <p>
+                        Rome is also a great location for food, wine, and leisure. At the heart of Italy, Rome is a central gathering place for a diverse array of Italian cuisine; Neapolitan Pizza from the south, Tuscan wine, and truffle from the north. Rome’s most famous dish is carbonara. Beyond the food, Rome has a vibrant nightlife. The Trastevere neighborhood has plenty of bars and clubs for patrons and, just over the river, Centro’s shopping district is always bustling.
+                    </p>
+                <div class = "travel-image-container">
+                <figure>
+                    <img src="images/colosseum-rome.gif" width = "400" alt="A view of the colosseum ruins at night.">
+                    <figcaption> A view of the colosseum ruins at night. </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/colosseum-rome.jpg" width = "400" alt="A view of the colosseum during the day.">
+                    <figcaption> A view of the colosseum during the day. </figcaption>
+                </figure>
+            </div>
+
+
+                <h3> Photo Gallery</h3>
+                <div class = "photo-container">
+                    <figure class = "photo">
+                    <img src="images/trevi-fountain-rome.jpg" width = "400" alt="A decorated marble fountain with several roman statues dancing.">
+                    <figcaption> A decorated marble fountain with several roman statues dancing. </figcaption>
+                </figure>
+
+                <figure class = "photo">
+                    <img src="images/vatican-rome.jpg" width = "400" alt="An aerial view of a circular forum outlined with ornate columns">
+                    <figcaption> An aerial view of a circular forum outlined with ornate columns </figcaption>
+                </figure>
+
+                <figure class = "photo">
+                    <img src="images/spanish-steps-rome.jpg" width = "400" alt="Decorative steps sitting behind a fountain with a small church at the top.">
+                    <figcaption> Decorative steps sitting behind a fountain with a small church at the top. </figcaption>
+                </figure>
+
+                <figure class = "photo">
+                    <img src="images/roman-forum-rome.webp" width = "400" alt="A ruin of large columns supporting a roof surrounded by smaller ruins.">
+                    <figcaption> A ruin of large columns supporting a roof surrounded by smaller ruins. </figcaption>
+                </figure>
+                </div>
+
+                <h4> By: Frank Pelosi</h4>
+        </div>
+    </main>
+
+    <footer>
+        Content Creator: Yujin Kim
+    </footer>
+
+    <!-- javascript added here -->
+    <script src="js/dataVisualization.js"></script>
+
+</body>
+</html>
